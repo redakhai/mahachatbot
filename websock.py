@@ -64,7 +64,7 @@ async def echo(websocket):
         await websocket.send(res)
 
 async def main():
-    async with websockets.serve(echo, '51.222.85.55' , 8765):
+    async with websockets.serve(echo, '51.222.85.55' , 8765, ssl=True, certfile='cert.pem', keyfile='key.pem'):
         await asyncio.Future()  # run forever
 
 asyncio.run(main())
