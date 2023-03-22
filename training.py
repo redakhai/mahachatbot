@@ -14,7 +14,7 @@ from keras.optimizers import SGD
 lemmatizer = WordNetLemmatizer()
   
 # reading the json.intense file
-intents = json.loads(open("intense.json").read())
+intents = json.loads(open("intents.json").read())
   
 # creating empty lists to store data
 words = []
@@ -84,7 +84,7 @@ sgd = SGD(lr=0.01, decay=1e-6, momentum=0.9, nesterov=True)
 model.compile(loss='categorical_crossentropy',
 			optimizer=sgd, metrics=['accuracy'])
 hist = model.fit(np.array(train_x), np.array(train_y),
-				epochs=200, batch_size=5, verbose=1)
+				epochs=2000, batch_size=5, verbose=1)
 
 # saving the model
 model.save("chatbotmodel.h5", hist)
