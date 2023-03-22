@@ -108,32 +108,7 @@
           "There are several research programs available for you" 
         ],
         "context_set": ""
-      },
-        {
-            "tag": "1",
-            "patterns": ["What are the office hours for the advising center?", "When can I meet with an academic advisor?", "Where can I find academic advising?"],
-            "responses": ["The advising center is open Monday-Friday from 8am-5pm. You can make an appointment online or visit us in person in the science building.", "Academic advising is available by appointment. You can schedule a meeting online or visit us in person during our office hours.", "The advising center is located on the third floor of the science building. Walk-ins are welcome, but appointments are recommended."]
-        },
-        {
-            "tag": "2",
-            "patterns": ["How do I register for classes?", "When is the registration deadline?", "What classes are required for my major?"],
-            "responses": ["You can register for classes online through the student portal. The registration deadline for each semester is posted on our website.", "The registration deadline for the fall semester is August 15th. Check our website for the deadline for other semesters.", "You can find a list of required courses for your major on our website. You should also meet with your academic advisor to discuss your course plan."]
-        },
-        {
-            "tag": "3",
-            "patterns": ["What resources are available in the library?", "How do I check out a book?", "What are the library hours?"],
-            "responses": ["The library has a wide selection of books, journals, and online resources. You can check out books at the front desk with your student ID.", "The library is open Monday-Friday from 8am-9pm and on weekends from 10am-6pm. You can find more information about our services on our website.", "The library also offers research assistance, computer workstations, and group study rooms. Visit us in person or online for more information."]
-        },
-        {
-            "tag": "4",
-            "patterns": ["How do I join a student organization?", "What clubs are available on campus?", "When do student organizations meet?"],
-            "responses": ["You can browse a list of student organizations on our website and contact the club leaders to learn more. Many clubs have meetings during common hour, which is from 12pm-1pm on Wednesdays.", "We have a variety of student organizations on campus, including academic clubs, social clubs, and service organizations. Visit our website to see a full list and descriptions.", "Each student organization has its own meeting schedule. Check with the club leader or visit their website for more information."]
-        },
-        {
-            "tag": "5",
-            "patterns": ["What dining options are available on campus?", "Where is the nearest cafeteria?", "Can I use my meal plan at off-campus restaurants?"],
-            "responses": ["We have several dining options on campus, including a cafeteria, coffee shop, and food truck. You can use your meal plan at any of these locations.", "The cafeteria is located on the first floor of the science building. It is open for breakfast, lunch, and dinner.", "Meal plans cannot be used at off-campus restaurants, but many local businesses offer student discounts. Check with individual businesses for details."]
-        }
+      }
     ]
 }
   
